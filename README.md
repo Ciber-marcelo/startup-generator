@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<img alt="Logo" src="https://cdn.discordapp.com/attachments/794432010441064468/1207463612155822110/Sem_titulo.png?ex=65dfbd1e&is=65cd481e&hm=8d7de8b3a05ac6b730c6540eb9217c570e419af285c74156d6531a9b7a9e116d&" width="100%">
 
-First, run the development server:
+## Indice
+
+- [Sobre](#sobre)
+- [Tecnologias utilizadas](#tecnologias-utilizadas)
+- [Funcionalidades](#Funcionalidades)
+
+---
+
+## Sobre
+
+**Startup generator** é uma aplicação web que emprega a API do ChatGPT para gerar conceitos inovadores de startups.
+
+---
+
+## Tecnologias utilizadas
+
+O projeto foi feito utilizando as seguintes tecnologias:
+
+- Next JS
+- Typescript
+- Tailwind CSS
+- Shadcn/UI
+- OpenAI
+- AI SDK
+
+Instruções:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  # Compilar o projeto:
+  npm install
+
+  # Rodar o projeto:
+  npm run dev 
+
+  # Crie um arquivo .env na raiz do seu projeto e adicione sua chave de API OpenAI::
+  OPENAI_API_KEY="xxxxxxxxx"
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Funcionalidades
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Chat interativo utilizando a API do ChatGPT
 
-## Learn More
+- Aplicação 100% responsiva
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<br/>
+<div align="center">
+  Desenvolvido por Marcelones
+</div>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
