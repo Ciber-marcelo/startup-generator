@@ -24,7 +24,7 @@ export function Chat() {
                      {item.role === 'user' && (
                         <Avatar>
                            <AvatarFallback>MM</AvatarFallback>
-                           <AvatarImage src="https://github.com/ciber-marcelo.png" />
+                           <AvatarImage src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNBNdcMDNS2r9df1IWFVc8AY0QNtfNhEJv7fGS5TdhUWrlBqfGu1PCCn9lKpL-FqF9dWc&usqp=CAU" />
                         </Avatar>
                      )}
 
