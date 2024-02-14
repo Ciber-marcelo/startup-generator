@@ -29,14 +29,14 @@ O projeto foi feito utilizando as seguintes tecnologias:
 Instruções:
 
 ```bash
+  # Crie um arquivo .env na raiz do seu projeto e adicione sua chave de API OpenAI::
+  OPENAI_API_KEY="xxxxxxxxx"
+
   # Compilar o projeto:
   npm install
 
   # Rodar o projeto:
   npm run dev 
-
-  # Crie um arquivo .env na raiz do seu projeto e adicione sua chave de API OpenAI::
-  OPENAI_API_KEY="xxxxxxxxx"
 ```
 
 ---
